@@ -1,0 +1,12 @@
+GET http://localhost:4004/service/risk/Risks
+###
+GET http://localhost:4004/service/risk/Mitigations
+###
+POST http://localhost:4004/service/risk/Mitigations
+Content-Type: application/json
+
+{
+  "descr" : "Cristian",
+  "owner" : "Cr",
+  "timeline": "Q2 2020"
+}
